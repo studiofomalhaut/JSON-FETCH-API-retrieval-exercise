@@ -1,0 +1,105 @@
+/* General */
+html {
+  font-family: 'Nunito', sans-serif;
+  background-color: #6ab9ee;
+  font-size: 10px; }
+
+body {
+  margin: 0 auto; }
+
+/* Typography */
+h1, h2 {
+  font-family: 'Nunito', sans-serif;
+  border: 5px solid white;
+  background-color: black;
+  margin-bottom: 50px;
+  text-align: center; }
+
+h1 {
+  font-size: 5rem;
+  color: whitesmoke;
+  background-size: 48px 48px; }
+
+h2 {
+  font-size: 2rem;
+  color: black;
+  text-align: right;
+  width: 160px;
+  position: absolute;
+  right: 4%;
+  z-index: 3000;
+  text-shadow: 2px 2px 1px #b9dce2;
+  line-height: 2rem;
+  padding-top: 0.3rem; }
+
+p, label, li {
+  font-size: 1.5rem; }
+
+li {
+  line-height: 1.5; }
+
+/* block styling */
+header, aside, main, footer {
+  padding: 20px; }
+
+header {
+  border-bottom: 0; }
+
+aside {
+  border: 5px solid white; }
+
+body > div {
+  display: flex; }
+
+main {
+  flex: 7; }
+
+/* Form styling */
+/* Styling the listing */
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around; }
+  main section {
+    width: 360px;
+    height: auto;
+    margin: 5px;
+    border: 5px solid white;
+    position: relative;
+    margin-bottom: 50px;
+    height: 270px; }
+  main h4 {
+    font-size: 15px;
+    padding: 3px;
+    color: white;
+    background-color: black;
+    margin-top: -1px;
+    z-index: 2000; }
+  main h5 {
+    font-size: 13px;
+    padding: 3px;
+    background-color: black;
+    color: #49ffe7;
+    margin-top: -20px;
+    z-index: 2000; }
+  main img {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    z-index: -1; }
+  main p {
+    color: black;
+    background: #49ffe7;
+    padding: 4px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 80%;
+    box-shadow: 2px 2px 1px #d6fa08;
+    position: absolute;
+    right: 10px;
+    bottom: -6px;
+    z-index: 2000; }
+
+/* Mobile responsiveness */
+
+/*# sourceMappingURL=styles.css.map */
